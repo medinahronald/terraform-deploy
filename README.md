@@ -13,11 +13,20 @@ arm_subscription_id = "xxxxxx-xxxxxx-xxxxx-xx-xxxxxxx"
 arm_tenant_id       = "xxxxx-xxxxx-xxxxxxxx"
 ```
 
-**3. Terraform init**
+**3. Configure Terraform Backend**
 
-**4. Terraform plan**
+Go to terraform.tfvars file and fill the correct Azure Storage Account details into the following variables:
 
-**5. Terraform apply**
+```bash
+tfbackend_storage_account_name = "xxxxxxxxxx"
+tfbackend_container_name = "xxxxxxxxxx"
+```
+
+**4. Terraform init**
+
+**5. Terraform plan**
+
+**6. Terraform apply**
 
 ### **In the list below you will find the resources that will be deployed using this Terraform configuration:**
 
